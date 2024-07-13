@@ -22,7 +22,7 @@ public class PracticeRecordController {
     private PracticeRecordMapper practiceRecordMapper;
 
     /**
-     * List all records
+     * List all recordsss
      * @return
      */
     @RequestMapping("/record")
