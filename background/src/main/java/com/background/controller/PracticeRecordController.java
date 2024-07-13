@@ -21,6 +21,10 @@ public class PracticeRecordController {
     @Autowired
     private PracticeRecordMapper practiceRecordMapper;
 
+    /**
+     * List all recordsss
+     * @return
+     */
     @RequestMapping("/record")
     public Result list(){
         List<PracticeRecord> list = practiceRecordMapper.list();
